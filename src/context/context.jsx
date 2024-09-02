@@ -1,11 +1,19 @@
-import React from 'react'
+import {createContext} from 'react'
 
-const Context = () => {
-  return (
-    <div>
-        
-    </div>
-  )
+export const Context = createContext();
+
+const contextProvider = (props) => {
+    
+
+
+    const contextValue = {
+
+    }
+    return(
+        <contextProvider value={contextValue}>
+            {props.children}
+        </contextProvider>
+    )
 }
 
-export default Context
+export default contextProvider

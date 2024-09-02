@@ -37,8 +37,7 @@ const Main = () => {
           </div>
           <div className="card">
             <p>
-              Explain this code. Go step by step, explaining each line in
-              detail
+              Explain this code. Go step by step, explaining each line in detail
             </p>
             <img src={assets.code_icon} alt="" />
           </div>
@@ -52,7 +51,7 @@ const Main = () => {
               <img src={assets.send_icon} alt="" />
             </div>
           </div>
-          <p className='bottom-info'>
+          <p className="bottom-info">
             Gemini may display inaccurate info, including about people, so
             double-check its responses. Your privacy & Gemini Apps
           </p>
